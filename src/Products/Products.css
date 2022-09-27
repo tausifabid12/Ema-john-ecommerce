@@ -1,0 +1,22 @@
+.products-section{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 3.2fr .8fr;
+    position: relative;
+}
+.products-container{
+ 
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+.order-info{
+    padding-top: 50px;
+    height: 100vh;
+    border-radius: 8px;
+    background: rgba(255, 153, 0, 0.3);
+    position: sticky;
+    top: 0;
+}

@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 110px ;
+    background-color: #1C2B35;
+    
+}
+.nav-links a{
+color: white;
+text-decoration: none;
+font-size: 17px;
+padding-left: 32px;
+}
+
+.nav-links a:hover{
+    color: orange;
+}
