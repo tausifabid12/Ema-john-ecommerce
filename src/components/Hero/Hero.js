@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import img from "../images/Hero.jpg";
+import img from "../../images/Hero.jpg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -11,7 +12,10 @@ const Hero = () => {
         </p>
         <h1>New Collection For Fall</h1>
         <p>Discover all the new arrivals of ready-to-wear collection.</p>
-        <button>Shop Now</button>
+
+        <Link to="/shop" className="shop-btn">
+          <button className="">Shop Now</button>
+        </Link>
       </div>
       <div className="hero-img-container flex-center">
         <div className="rectangle"></div>
