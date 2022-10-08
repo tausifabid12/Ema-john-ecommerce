@@ -1,0 +1,42 @@
+.orders-container{
+    border: 1px solid silver;
+    height: 150px;
+    width: 507px;
+    margin: 20px auto;
+    padding: 8px;
+    border-radius: 8px;
+}
+.order-cart{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.orders-container img{
+    height: 100%;
+    width: 155px;
+    border-radius: 8px;
+}
+.item-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+.item-info p,h5{
+    margin: 0;
+    padding: 5px;
+}
+.delete-btn{
+    background-color: #ffb0b4;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.delete-icon{
+    color: #d82831;
+    height: 25px
+}
+

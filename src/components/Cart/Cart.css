@@ -4,3 +4,21 @@
 .cart-item-info-container h3,p{
     padding-bottom: 30px;
 }
+.cart-botton{
+    width: 95%;
+    height: 40px;
+    margin: 25px auto 0px;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.cart-btn-red{
+    background-color: #d9333b;
+ 
+}
+.cart-btn-orange{
+    background-color: orange;
+ 
+}
